@@ -359,6 +359,7 @@
 
   @media (max-width: 900px) {
     nav { padding: 1rem 1.5rem; }
+    .nav-logo img { height: 28px; }
     .hero { grid-template-columns: 1fr; }
     .hero-right { min-height: 50vh; }
     .hero-left { padding: 6rem 1.5rem 3rem; }
@@ -529,6 +530,7 @@
         <div class="book-year">Rok wydania: 2020</div>
         <p class="book-desc">Mimo że Lena obdarzona jest niezwykłym talentem plastycznym, dziewczynka nie potrafi uwierzyć w to, że jej prace mogłyby się komuś spodobać. W końcu jednak zdobywa się na odwagę i postanawia wystartować w szkolnym konkursie. Pech sprawia, że w ostatniej chwili gubi swoją teczkę z rysunkami...</p>
         <div class="book-price">19,99 zł</div>
+        <div style="font-size:0.78rem; color:var(--accent); font-weight:500; margin-bottom:1rem; display:flex; align-items:center; gap:0.4rem;">✓ Darmowa przesyłka</div>
         <a href="#zamowienie" class="btn-order" onclick="document.getElementById('book-select').value='czesc1'">Zamów</a>
       </div>
     </div>
@@ -544,6 +546,7 @@
         <div class="book-year">Rok wydania: 2021</div>
         <p class="book-desc">Julka jest nową uczennicą w szkole i chce za wszelką cenę zostać zaakceptowana przez rówieśników. Małe kłamstewka zaczynają się jednak wymykać spod kontroli... Czy przyjaźń zbudowana na nieprawdzie ma szansę przetrwać?</p>
         <div class="book-price">19,99 zł</div>
+        <div style="font-size:0.78rem; color:var(--accent); font-weight:500; margin-bottom:1rem; display:flex; align-items:center; gap:0.4rem;">✓ Darmowa przesyłka</div>
         <div style="font-size:0.82rem; color:var(--rust); font-family:'DM Sans',sans-serif; font-weight:600; margin-bottom:1.2rem; padding:0.45rem 0.9rem; border:1.5px solid var(--rust); display:inline-block; letter-spacing:0.04em;">🎁 Obie książki za 29,99 zł</div>
         <br>
         <a href="#zamowienie" class="btn-order" onclick="document.getElementById('book-select').value='czesc2'">Zamów</a>
@@ -699,7 +702,7 @@
         <textarea name="uwagi" placeholder="Np. treść dedykacji, pytania..."></textarea>
       </div>
       <button type="submit" class="btn-submit">Wyślij zamówienie →</button>
-      <p class="form-note">* Po wysłaniu formularza otrzymasz e-mail z potwierdzeniem i danymi do przelewu. Książkę wysyłamy w ciągu 3–5 dni roboczych.</p>
+      <p class="form-note">* Po wysłaniu formularza otrzymasz e-mail z potwierdzeniem i danymi do przelewu. Książkę wysyłamy w ciągu 3–5 dni roboczych. <strong style="color:rgba(238,245,240,0.6);">✓ Darmowa przesyłka</strong></p>
     </form>
     <div class="success-msg" id="successMsg">
       ✓ Dziękujemy! Twoje zamówienie zostało przyjęte. Odezwiemy się wkrótce na podany adres e-mail z potwierdzeniem i danymi do płatności.
