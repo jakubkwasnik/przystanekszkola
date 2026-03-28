@@ -265,6 +265,10 @@
 
   /* ZAMÓWIENIE */
   .order-section { background: #D6E8F2; }
+  @media (max-width: 480px) {
+    .nav-links li:not(:last-child) { display: none; }
+    .nav-logo img { height: 22px; }
+  }
   .order-wrapper {
     max-width: 700px; margin: 0 auto;
     background: #1A3050; padding: 4rem;
@@ -358,8 +362,10 @@
   .fade-in.visible { opacity: 1; transform: none; }
 
   @media (max-width: 900px) {
-    nav { padding: 1rem 1.5rem; }
-    .nav-logo img { height: 28px; }
+    nav { padding: 0.8rem 1.2rem; }
+    .nav-logo img { height: 24px; }
+    .nav-links { gap: 1rem; }
+    .nav-links a { font-size: 0.72rem; letter-spacing: 0.03em; }
     .hero { grid-template-columns: 1fr; }
     .hero-right { min-height: 50vh; }
     .hero-left { padding: 6rem 1.5rem 3rem; }
